@@ -1,0 +1,54 @@
+header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+header > h1 {
+  font-size: 3rem;
+}
+
+header > h3 {
+  font-size: 1.3rem;
+}
+
+body {
+  margin-bottom: 5rem;
+  padding-top: 5rem;
+}
+
+div.body {
+  column-gap: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 25%;
+  padding: 0 10rem;
+}
+
+div > section > h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+div > section > p {
+  margin-bottom: 1rem;
+}
+
+
+div > section:first-of-type > p {
+  font-size: 1rem;
+  text-indent: 1.5rem;
+}
+
+div > section:nth-of-type(2) > img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+div > section:nth-of-type(2) p {
+  font-size: 0.9rem;
+}
+
+div > section:nth-of-type(2) > ol > li {
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+}
+
